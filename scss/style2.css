@@ -1,0 +1,73 @@
+body {
+  background: #659a01;
+  font: normal 15px/20px Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+#content {
+  width: 85%;
+  margin: auto;
+  background: #666701;
+  padding: 10px 2%;
+}
+#content h1 {
+  color: #ffcd10;
+}
+
+img {
+  padding: 4px;
+  border: 2px solid #feffff;
+  margin: 0 5px;
+}
+
+.img-left {
+  float: left;
+  margin-right: 1%;
+}
+
+.img-right {
+  float: right;
+  margin-left: 1%;
+}
+
+.brief {
+  float: none;
+  width: 90%;
+  background: #677d01;
+  padding: 2%;
+  margin: 2% auto;
+  font-style: italic;
+}
+
+h2 {
+  color: #ffcd10;
+}
+
+a {
+  color: #ffcd10;
+}
+
+table {
+  width: 88%;
+  border-collapse: collapse;
+}
+table caption {
+  text-align: right;
+  font-size: 1.3rem;
+}
+table tr {
+  height: 50px;
+  background: #677d01;
+  border-bottom: 1px solid #94a34e;
+}
+table tr th {
+  background: #94a34e;
+  border-right: none;
+  text-align: left;
+  padding-left: 1%;
+}
+table tr td {
+  padding-left: 1%;
+}
+
+/*# sourceMappingURL=style2.css.map */

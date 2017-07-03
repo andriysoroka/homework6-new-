@@ -1,0 +1,79 @@
+$bodyFont: normal 12px/18px Arial, Helvetica, sans-serif !default;
+$textColor: red !default;
+$backgroundbody: blue !default;
+$bordercolor: #8b3d00 !default;
+$hcolor: #873c03 !default;
+$contentBack: yellow !default;
+$tableColor: #e0e0e0 !default;
+$tableBack: white !default;
+$briefwidth: 50% !default;
+$briefFloat: none !default;
+$briefBack: #fadcba !default;
+$briefMargin: 0 auto!default;
+$aColor: blue !default;
+$thborder: 2px solid $contentBack !default;
+$tdPadding: 1%;
+
+body {
+	background: $backgroundbody;
+	font: $bodyFont;
+	color: $textColor;
+}
+#content {
+	width: 85%;
+	margin: auto;
+	background: $contentBack;
+	padding: 10px 2%;
+	h1 {
+		color: $hcolor;
+	}
+}
+img {
+	padding: 4px;
+	border: 2px solid $bordercolor;
+	margin: 0 5px;
+}
+.img-left {
+	float: left;
+	margin-right: 1%;
+}
+.img-right {
+	float: right;
+	margin-left: 1%;
+}
+.brief {
+	float: $briefFloat;
+	width: $briefwidth;
+	background: $briefBack;
+	padding: 2%;
+	margin: $briefMargin;
+	font-style: italic;
+}
+h2 {
+	color: $hcolor;
+}
+a {
+	color: $aColor;
+}
+table {
+	caption {
+		text-align: right;
+		font-size: 1.3rem;
+	}
+	width: 88%;
+	border-collapse: collapse;
+	tr {
+		height: 50px;
+		background: $tableBack;
+		border-bottom: 1px solid $tableColor;
+		th {
+			background: $tableColor;
+			border-right: $thborder;
+			text-align: left;
+			padding-left: $tdPadding;
+		}
+		td {
+			padding-left: $tdPadding;
+		}
+	}
+}
